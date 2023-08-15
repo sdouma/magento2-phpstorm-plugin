@@ -16,7 +16,7 @@ import com.magento.idea.magento2plugin.magento.packages.Package;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 
-public class OverrideTemplateInThemeAction extends OverrideFileInThemeAction {
+public class OverrideTemplateInThemeAction extends OverrideFileAction {
 
     public static final String ACTION_NAME = "Override this file in a project theme";
     public static final String ACTION_TEMPLATE_DESCRIPTION =
