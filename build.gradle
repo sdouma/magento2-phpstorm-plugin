@@ -15,7 +15,7 @@ repositories {
 }
 
 group 'com.magento.idea'
-version '5.1.1'
+version '5.2.0'
 
 apply plugin: 'org.jetbrains.intellij'
 apply plugin: 'java'
@@ -68,6 +68,7 @@ sourceSets {
 
 publishPlugin {
     token = System.getenv("MAGENTO_PHPSTORM_intellijPublishToken")
+
     if (Boolean.valueOf(System.getenv("MAGENTO_PHPSTORM_isAlpha"))) {
         channels = ['alpha']
         version = version + "-alpha-" + getDate()
